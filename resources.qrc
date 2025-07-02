@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/windows.png</file>
+        <file>icons/notepad.png</file>
+        <file>licenseTerm/licenseTerm.html</file>
+    </qresource>
+</RCC>

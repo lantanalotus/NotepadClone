@@ -1,7 +1,8 @@
-# C++ objects and libs
+# C++ and Qt build artifacts
 *.slo
 *.lo
 *.o
+*.obj
 *.a
 *.la
 *.lai
@@ -9,46 +10,67 @@
 *.so.*
 *.dll
 *.dylib
+*.exe
+*.core
+*.debug
+*.orig
+*.rej
+*.res
+*.rc
+*.pdb
+*.idb
+*.ilk
 
-# Qt-es
-object_script.*.Release
-object_script.*.Debug
+# Qt-specific build files
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
 *_plugin_import.cpp
+*_qmlcache.qrc
+*.qmlc
+*.jsc
+*.qm
+target_wrapper.*
+
+# Qt project files
 /.qmake.cache
 /.qmake.stash
 *.pro.user
 *.pro.user.*
 *.qbs.user
 *.qbs.user.*
-*.moc
-moc_*.cpp
-moc_*.h
-qrc_*.cpp
-ui_*.h
-*.qmlc
-*.jsc
-Makefile*
-*build-*
-*.qm
-*.prl
-
-# Qt unit tests
-target_wrapper.*
-
-# QtCreator
 *.autosave
-
-# QtCreator Qml
-*.qmlproject.user
-*.qmlproject.user.*
-
-# QtCreator CMake
+*.flc
+*.qmlproject.user*
 CMakeLists.txt.user*
-
-# QtCreator 4.8< compilation database
 compile_commands.json
 
-# QtCreator local machine specific files for imported projects
-*creator.user*
+# QtCreator and IDE files
+*.sln
+*.suo
+*.vcproj
+*vcproj.*.*.user
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj
+*vcxproj.*
 
-*_qmlcache.qrc
+# Backup and temp files
+*~
+.#*
+*.*#
+.DS_Store
+.directory
+Thumbs.db
+.*.swp
+tags
+
+# Build folders
+build/
+build-*/
+
+# MinGW/VisualStudio config folders
+*.Release
+*.Debug
